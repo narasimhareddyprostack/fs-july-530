@@ -1,0 +1,23 @@
+.rajni{
+    background-color: red;
+    font-family: red;
+}
+.nayana{
+
+    background-color: yellow;
+}
+.sharuk{
+    background-color: green;
+}
+.abc{
+    background-color:aquamarine;
+}
+.xyz{
+    background-color: blue;
+}
+
+.box{
+    background-color: chartreuse;
+    border:solid red 5px;
+    color: blueviolet;
+}
