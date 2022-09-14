@@ -1,9 +1,12 @@
-import React from 'react'
-class App extends React.Component {
-    render() {
-        return <div>
-            <h2>Hello,Welcome to React</h2>
-        </div>
-    }
+import Navbar from './Navbar/Navbar'
+//import CompA from './Components/CompA'
+import User from './User/User'
+let App = () => {
+
+
+    return <div>
+        <Navbar />
+        <User />
+    </div>
 }
 export default App
