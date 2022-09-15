@@ -1,12 +1,14 @@
+import React from 'react'
 import Navbar from './Navbar/Navbar'
-//import CompA from './Components/CompA'
-import User from './User/User'
-let App = () => {
+import Message from './Message/Message'
+import Counter from './/Counter/Counter'
+class App extends React.Component {
 
-
-    return <div>
-        <Navbar />
-        <User />
-    </div>
+    render() {
+        return <div>
+            <Navbar />
+            <Counter />
+        </div>
+    }
 }
 export default App
