@@ -13,7 +13,7 @@ class Message extends Component {
         return (
             <div>
                 <h3>Message:{this.state.msg}</h3>
-                <button onMouseOver={this.updateHandler.bind(this, "Good Morning")} >GM  </button>&nbsp;
+                <button onClick={this.updateHandler.bind(this, "Good Morning")} >GM  </button>&nbsp;
                 <button onClick={this.updateHandler.bind(this, "Good Afternoon")}>GA  </button>&nbsp;
                 <button onClick={this.updateHandler.bind(this, "Good Evening")}>GE </button>&nbsp;
                 <button onClick={this.updateHandler.bind(this, "Good Night")} > GN </button>&nbsp;

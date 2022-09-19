@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar'
+import Employee from './Employee/Employee'
+import Product from './Product/Product'
 import Message from './Message/Message'
-import Counter from './/Counter/Counter'
-class App extends React.Component {
-
+export class App extends Component {
     render() {
-        return <div>
-            <Navbar />
-            <Counter />
-        </div>
+        return (
+            <div>
+                <Navbar />
+                <Employee />
+            </div>
+        )
     }
 }
+
 export default App
