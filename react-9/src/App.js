@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar/Navbar'
-import Home from './components/Home'
-import About from './components/About'
-import Services from './components/Services'
-import Contact from './components/Contact'
+import User from './User/User'
+import Product from './Product/Product'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 class App extends Component {
 
@@ -13,10 +11,9 @@ class App extends Component {
                 <Router>
                     <Navbar />
                     <Routes>
-                        <Route path="/home" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/service" element={<Services />} />
-                        <Route path="/contact" element={<Contact />} />
+                        <Route exact path="/user" element={<User />} />
+                        <Route exact path="/product" element={<Product />} />
+
                     </Routes>
                 </Router>
             </div>

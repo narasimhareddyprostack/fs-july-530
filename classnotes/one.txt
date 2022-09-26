@@ -1,0 +1,10 @@
+API URL:https://jsonplaceholder.typicode.com/users
+Method : GET
+Req Fields: None
+Acceess Type: Public
+
+Back API URL :
+URL:http://127.0.0.1:8080/api/products/
+method:GET
+Req Fields:None 
+access type: public
