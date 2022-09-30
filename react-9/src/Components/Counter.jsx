@@ -17,3 +17,4 @@ const Counter = () => {
 }
 
 export default Counter
+//writing test cases
