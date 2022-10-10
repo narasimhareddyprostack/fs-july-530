@@ -1,18 +1,17 @@
+
 import React from 'react'
-import Navbar from './Navbar/Navbar'
-import Message from './Components/Message'
-import Counter from './Components/Counter'
-import Product from './Product/Product'
-import Clock from './Clock/Clock'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Message from './Message/Message'
+import { Provider } from 'react-redux'
+import { store } from './redux/store'
 const App = () => {
+
     return (
         <div>
-            <Router>
-                <Navbar />
-                <Clock />
-            </Router>
-
+            <Provider store={store}>
+                <h1>App Component</h1>
+                <hr />
+                <Message />
+            </Provider>
         </div>
     )
 }
