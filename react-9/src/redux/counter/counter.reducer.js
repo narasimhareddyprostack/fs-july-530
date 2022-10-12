@@ -7,6 +7,7 @@ let initialState = {
     qty: 1
 }
 let counterReducer = (state = initialState, action) => {
+    console.log("Reducer -Test Case 2")
     console.log(action)
     console.log(action.type)
     switch (action.type) {

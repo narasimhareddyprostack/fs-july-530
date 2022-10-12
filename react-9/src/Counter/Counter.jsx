@@ -3,10 +3,11 @@ import { decrAction, incrAction } from '../redux/counter/counter.action'
 import { useDispatch, useSelector } from 'react-redux'
 const Counter = () => {
     let counter = useSelector((state) => {
-        return state
+        return state.product
     })
     let dispatch = useDispatch()
     let decrHandler = () => {
+
         //dispactch action
         dispatch(decrAction())
     }

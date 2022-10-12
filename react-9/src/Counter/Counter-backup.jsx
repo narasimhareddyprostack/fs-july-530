@@ -1,5 +1,23 @@
 import React from 'react'
-import { decrAction, incrAction } from '../redux/counter/counter.action'
+import { decrAction, incrAction } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from '../redux/counter/counter.action'
 import { useDispatch, useSelector } from 'react-redux'
 const Counter = () => {
     let counter = useSelector((state) => {
